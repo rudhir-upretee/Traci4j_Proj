@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/traci4j/!svn/ver/42/trunk/src/it/polito/appeal/traci
+END
+SumoTraciConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/traci4j/!svn/ver/42/trunk/src/it/polito/appeal/traci/SumoTraciConnection.java
+END
+VehicleLifecycleObserver.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/traci4j/!svn/ver/29/trunk/src/it/polito/appeal/traci/VehicleLifecycleObserver.java
+END
+SumoHttpRetriever.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/traci4j/!svn/ver/7/trunk/src/it/polito/appeal/traci/SumoHttpRetriever.java
+END
+Lane.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/traci4j/!svn/ver/31/trunk/src/it/polito/appeal/traci/Lane.java
+END
+Vehicle.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/traci4j/!svn/ver/31/trunk/src/it/polito/appeal/traci/Vehicle.java
+END
+TraCIException.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/traci4j/!svn/ver/4/trunk/src/it/polito/appeal/traci/TraCIException.java
+END

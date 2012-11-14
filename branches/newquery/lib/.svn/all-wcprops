@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/traci4j/!svn/ver/48/branches/newquery/lib
+END
+junit.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/traci4j/!svn/ver/34/branches/newquery/lib/junit.jar
+END
+xercesImpl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/traci4j/!svn/ver/34/branches/newquery/lib/xercesImpl.jar
+END
+org.hamcrest.core_1.1.0.v20090501071000.jar
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/traci4j/!svn/ver/34/branches/newquery/lib/org.hamcrest.core_1.1.0.v20090501071000.jar
+END
+log4j.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/traci4j/!svn/ver/34/branches/newquery/lib/log4j.jar
+END

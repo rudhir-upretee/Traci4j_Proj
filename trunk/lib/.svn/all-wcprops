@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svnroot/traci4j/!svn/ver/21/trunk/lib
+END
+junit.jar
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/traci4j/!svn/ver/11/trunk/lib/junit.jar
+END
+serializer.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/traci4j/!svn/ver/4/trunk/lib/serializer.jar
+END
+xml-apis.jar
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/traci4j/!svn/ver/4/trunk/lib/xml-apis.jar
+END
+xercesImpl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/traci4j/!svn/ver/4/trunk/lib/xercesImpl.jar
+END
+org.hamcrest.core_1.1.0.v20090501071000.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/traci4j/!svn/ver/21/trunk/lib/org.hamcrest.core_1.1.0.v20090501071000.jar
+END
+log4j.jar
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svnroot/traci4j/!svn/ver/4/trunk/lib/log4j.jar
+END
+resolver.jar
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/traci4j/!svn/ver/4/trunk/lib/resolver.jar
+END

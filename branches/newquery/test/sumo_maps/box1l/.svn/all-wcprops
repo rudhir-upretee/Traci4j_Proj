@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/traci4j/!svn/ver/34/branches/newquery/test/sumo_maps/box1l
+END
+test.sumo.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/traci4j/!svn/ver/34/branches/newquery/test/sumo_maps/box1l/test.sumo.cfg
+END
+input_routes.rou.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/traci4j/!svn/ver/34/branches/newquery/test/sumo_maps/box1l/input_routes.rou.xml
+END
+three_split.net.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/traci4j/!svn/ver/34/branches/newquery/test/sumo_maps/box1l/three_split.net.xml
+END
+net.net.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/traci4j/!svn/ver/34/branches/newquery/test/sumo_maps/box1l/net.net.xml
+END

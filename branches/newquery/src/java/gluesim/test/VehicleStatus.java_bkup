@@ -1,0 +1,85 @@
+package gluesim.test;
+
+import it.polito.appeal.traci.ReadObjectVarQuery;
+import it.polito.appeal.traci.SumoTraciConnection;
+import it.polito.appeal.traci.Vehicle;
+import it.polito.appeal.traci.ChangeMaxSpeedQuery;
+
+import java.util.Collection;
+import java.util.Iterator;
+
+public class VehicleStatus {
+	
+	public VehicleStatus(){}
+	
+	public static void main(String[] args) {
+		
+		String cfgPath = new String("/home/rudhir/Software/Simulator/traci4j/"+
+									"branches/newquery/src/java/gluesim/"+
+									"sumocfg/quickstart.sumocfg");
+		SumoTraciConnection conn = new SumoTraciConnection(
+				cfgPath,              // config file
+				12345,                // random seed
+				false                 // look for geolocalization info in the map
+				);
+		try {
+			conn.runServer();
+			
+			String strOutput = "";
+			for(int nLoop = 0; nLoop < 250; nLoop++) {
+
+				conn.nextSimStep();
+				strOutput = ("Sim Step = "+nLoop);
+				
+				// Get vehicle Id and speed
+				Collection<Vehicle> vehicles = 
+						conn.getVehicleRepository().getAll().values();
+				Iterator<Vehicle> vehIter = vehicles.iterator();
+				
+				while(vehIter.hasNext()){
+				    Vehicle aVehicle = (Vehicle)vehIter.next();
+				    
+					if(aVehicle != null) {
+						ReadObjectVarQuery<java.lang.Double> speedQuery = 
+								aVehicle.queryReadSpeed();
+						ReadObjectVarQuery<java.lang.Double> lanePosQuery = 
+								aVehicle.queryReadLanePosition();
+						double dist = lanePosQuery.get();
+						strOutput += (" VehicleId = "+aVehicle)+
+						             (" Speed = "+speedQuery.get())+
+						             (" Dist = "+dist)+
+						             ", ";
+						
+						if(nLoop > 30){
+							if(aVehicle.getID().equals("veh0")) {
+								ChangeMaxSpeedQuery maxSpeedQuery = aVehicle.queryChangeMaxSpeed();
+								maxSpeedQuery.setValue(1.0);
+								maxSpeedQuery.run();
+							} else {
+								ChangeMaxSpeedQuery maxSpeedQuery = aVehicle.queryChangeMaxSpeed();
+								maxSpeedQuery.setValue(11.0);
+								maxSpeedQuery.run();
+							}
+						}
+					}
+				}
+				System.out.println(strOutput);
+
+			}
+			conn.close();
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public int readParams()
+	{
+		return 0;
+	}
+	
+	public int writeParams()
+	{
+		return 0;
+	}
+}

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/traci4j/!svn/ver/56/branches/newquery/test/sumo_maps/cross3ltl
+END
+test.sumo.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/traci4j/!svn/ver/56/branches/newquery/test/sumo_maps/cross3ltl/test.sumo.cfg
+END
+input_routes.rou.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/traci4j/!svn/ver/56/branches/newquery/test/sumo_maps/cross3ltl/input_routes.rou.xml
+END
+net.net.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/traci4j/!svn/ver/56/branches/newquery/test/sumo_maps/cross3ltl/net.net.xml
+END

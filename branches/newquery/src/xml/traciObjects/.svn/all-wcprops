@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/traci4j/!svn/ver/88/branches/newquery/src/xml/traciObjects
+END
+MeMeDetector.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/traci4j/!svn/ver/73/branches/newquery/src/xml/traciObjects/MeMeDetector.xml
+END
+Route.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/traci4j/!svn/ver/75/branches/newquery/src/xml/traciObjects/Route.xml
+END
+ExampleTraciObject.xml.template
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/traci4j/!svn/ver/88/branches/newquery/src/xml/traciObjects/ExampleTraciObject.xml.template
+END
+Lane.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/traci4j/!svn/ver/84/branches/newquery/src/xml/traciObjects/Lane.xml
+END
+Vehicle.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/traci4j/!svn/ver/81/branches/newquery/src/xml/traciObjects/Vehicle.xml
+END
+VehicleType.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/traci4j/!svn/ver/74/branches/newquery/src/xml/traciObjects/VehicleType.xml
+END
+Edge.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/traci4j/!svn/ver/71/branches/newquery/src/xml/traciObjects/Edge.xml
+END
+InductionLoop.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/traci4j/!svn/ver/75/branches/newquery/src/xml/traciObjects/InductionLoop.xml
+END
+TrafficLight.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/traci4j/!svn/ver/88/branches/newquery/src/xml/traciObjects/TrafficLight.xml
+END

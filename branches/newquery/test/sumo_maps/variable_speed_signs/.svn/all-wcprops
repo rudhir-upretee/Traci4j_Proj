@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/traci4j/!svn/ver/78/branches/newquery/test/sumo_maps/variable_speed_signs
+END
+e3_detectors.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/traci4j/!svn/ver/75/branches/newquery/test/sumo_maps/variable_speed_signs/e3_detectors.xml
+END
+input_routes.rou.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/traci4j/!svn/ver/34/branches/newquery/test/sumo_maps/variable_speed_signs/input_routes.rou.xml
+END
+net.net.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/traci4j/!svn/ver/34/branches/newquery/test/sumo_maps/variable_speed_signs/net.net.xml
+END
+pois.poi.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/traci4j/!svn/ver/51/branches/newquery/test/sumo_maps/variable_speed_signs/pois.poi.xml
+END
+test.sumo.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/traci4j/!svn/ver/73/branches/newquery/test/sumo_maps/variable_speed_signs/test.sumo.cfg
+END

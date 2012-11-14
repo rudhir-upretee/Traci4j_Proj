@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/traci4j/!svn/ver/22/trunk/src/de/uniluebeck/itm/tcpip
+END
+Socket.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/traci4j/!svn/ver/12/trunk/src/de/uniluebeck/itm/tcpip/Socket.java
+END
+FastStorage.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/traci4j/!svn/ver/12/trunk/src/de/uniluebeck/itm/tcpip/FastStorage.java
+END
+Storage.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/traci4j/!svn/ver/22/trunk/src/de/uniluebeck/itm/tcpip/Storage.java
+END
+FastSocket.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/traci4j/!svn/ver/4/trunk/src/de/uniluebeck/itm/tcpip/FastSocket.java
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/traci4j/!svn/ver/88/branches/newquery/test/java/it/polito/appeal/traci/test
+END
+TraCITest.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/traci4j/!svn/ver/86/branches/newquery/test/java/it/polito/appeal/traci/test/TraCITest.java
+END
+HttpDownloadTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/traci4j/!svn/ver/60/branches/newquery/test/java/it/polito/appeal/traci/test/HttpDownloadTest.java
+END
+RoadmapPositionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/traci4j/!svn/ver/45/branches/newquery/test/java/it/polito/appeal/traci/test/RoadmapPositionTest.java
+END
+TraCIServerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/traci4j/!svn/ver/86/branches/newquery/test/java/it/polito/appeal/traci/test/TraCIServerTest.java
+END
+TrafficLightsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/traci4j/!svn/ver/88/branches/newquery/test/java/it/polito/appeal/traci/test/TrafficLightsTest.java
+END
+RemoteTraCITest.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/traci4j/!svn/ver/61/branches/newquery/test/java/it/polito/appeal/traci/test/RemoteTraCITest.java
+END
+NanoHTTPD.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/traci4j/!svn/ver/54/branches/newquery/test/java/it/polito/appeal/traci/test/NanoHTTPD.java
+END
+EqualsHashcodeTester.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/traci4j/!svn/ver/45/branches/newquery/test/java/it/polito/appeal/traci/test/EqualsHashcodeTester.java
+END

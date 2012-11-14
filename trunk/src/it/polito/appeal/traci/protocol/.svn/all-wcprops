@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/traci4j/!svn/ver/33/trunk/src/it/polito/appeal/traci/protocol
+END
+StatusResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/traci4j/!svn/ver/9/trunk/src/it/polito/appeal/traci/protocol/StatusResponse.java
+END
+StringList.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/traci4j/!svn/ver/30/trunk/src/it/polito/appeal/traci/protocol/StringList.java
+END
+ResponseMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/traci4j/!svn/ver/25/trunk/src/it/polito/appeal/traci/protocol/ResponseMessage.java
+END
+Polygon.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/traci4j/!svn/ver/25/trunk/src/it/polito/appeal/traci/protocol/Polygon.java
+END
+RoadmapPosition.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/traci4j/!svn/ver/26/trunk/src/it/polito/appeal/traci/protocol/RoadmapPosition.java
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/traci4j/!svn/ver/22/trunk/src/it/polito/appeal/traci/protocol/Constants.java
+END
+RequestMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/traci4j/!svn/ver/24/trunk/src/it/polito/appeal/traci/protocol/RequestMessage.java
+END
+BoundingBox.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/traci4j/!svn/ver/33/trunk/src/it/polito/appeal/traci/protocol/BoundingBox.java
+END
+Command.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/traci4j/!svn/ver/22/trunk/src/it/polito/appeal/traci/protocol/Command.java
+END
+ResponseContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/traci4j/!svn/ver/13/trunk/src/it/polito/appeal/traci/protocol/ResponseContainer.java
+END

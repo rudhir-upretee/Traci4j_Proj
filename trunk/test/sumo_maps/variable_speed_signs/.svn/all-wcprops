@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/traci4j/!svn/ver/25/trunk/test/sumo_maps/variable_speed_signs
+END
+test.sumo.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/traci4j/!svn/ver/14/trunk/test/sumo_maps/variable_speed_signs/test.sumo.cfg
+END
+input_routes.rou.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/traci4j/!svn/ver/25/trunk/test/sumo_maps/variable_speed_signs/input_routes.rou.xml
+END
+net.net.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/traci4j/!svn/ver/25/trunk/test/sumo_maps/variable_speed_signs/net.net.xml
+END

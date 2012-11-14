@@ -1,0 +1,48 @@
+<?xml version='1.0'?>
+
+<!--  This XML document defines which repositories are needed by each query. -->
+
+<queries>
+	<query>
+		<class>RouteQuery</class>
+		<usedRepos>
+			<repo>Edge</repo>
+		</usedRepos>
+	</query>
+	<query>
+		<class>ReadObjectVarQuery.EdgeQ</class>
+		<usedRepos>
+			<repo>Edge</repo>
+		</usedRepos>
+	</query>
+	<query>
+		<class>ReadLinksQuery</class>
+		<usedRepos>
+			<repo>Lane</repo>
+		</usedRepos>
+	</query>
+	<query>
+		<class>VehicleSetQuery</class>
+		<usedRepos>
+			<repo>Vehicle</repo>
+		</usedRepos>
+	</query>
+	<query>
+		<class>ReadObjectVarQuery.LaneQ</class>
+		<usedRepos>
+			<repo>Lane</repo>
+		</usedRepos>
+	</query>
+	<query>
+		<class>LaneListQuery</class>
+		<usedRepos>
+			<repo>Lane</repo>
+		</usedRepos>
+	</query>
+	<query>
+		<class>ReadControlledLinksQuery</class>
+		<usedRepos>
+			<repo>Lane</repo>
+		</usedRepos>
+	</query>
+</queries>

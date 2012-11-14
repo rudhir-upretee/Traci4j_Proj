@@ -1,0 +1,305 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/traci4j/!svn/ver/89/branches/newquery/src/java/it/polito/appeal/traci
+END
+RouteQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/traci4j/!svn/ver/64/branches/newquery/src/java/it/polito/appeal/traci/RouteQuery.java
+END
+SumoTraciConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/traci4j/!svn/ver/81/branches/newquery/src/java/it/polito/appeal/traci/SumoTraciConnection.java
+END
+POI.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/traci4j/!svn/ver/88/branches/newquery/src/java/it/polito/appeal/traci/POI.java
+END
+ReadControlledLinksQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/traci4j/!svn/ver/89/branches/newquery/src/java/it/polito/appeal/traci/ReadControlledLinksQuery.java
+END
+ObjectFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/traci4j/!svn/ver/62/branches/newquery/src/java/it/polito/appeal/traci/ObjectFactory.java
+END
+ReadTLStateQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/traci4j/!svn/ver/73/branches/newquery/src/java/it/polito/appeal/traci/ReadTLStateQuery.java
+END
+Program.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/traci4j/!svn/ver/73/branches/newquery/src/java/it/polito/appeal/traci/Program.java
+END
+LightState.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/traci4j/!svn/ver/73/branches/newquery/src/java/it/polito/appeal/traci/LightState.java
+END
+SumoHttpRetriever.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/traci4j/!svn/ver/62/branches/newquery/src/java/it/polito/appeal/traci/SumoHttpRetriever.java
+END
+AddVehicleQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/traci4j/!svn/ver/76/branches/newquery/src/java/it/polito/appeal/traci/AddVehicleQuery.java
+END
+ReadGlobalTravelTimeQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/traci4j/!svn/ver/69/branches/newquery/src/java/it/polito/appeal/traci/ReadGlobalTravelTimeQuery.java
+END
+ReadShapeQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/traci4j/!svn/ver/73/branches/newquery/src/java/it/polito/appeal/traci/ReadShapeQuery.java
+END
+ChangeTargetQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/traci4j/!svn/ver/67/branches/newquery/src/java/it/polito/appeal/traci/ChangeTargetQuery.java
+END
+RemoveVehicleQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/traci4j/!svn/ver/81/branches/newquery/src/java/it/polito/appeal/traci/RemoveVehicleQuery.java
+END
+ChangeLightsStateQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/traci4j/!svn/ver/88/branches/newquery/src/java/it/polito/appeal/traci/ChangeLightsStateQuery.java
+END
+ChangeGlobalTravelTimeQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/traci4j/!svn/ver/69/branches/newquery/src/java/it/polito/appeal/traci/ChangeGlobalTravelTimeQuery.java
+END
+TraciObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/traci4j/!svn/ver/62/branches/newquery/src/java/it/polito/appeal/traci/TraciObject.java
+END
+ChangeRouteQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/traci4j/!svn/ver/64/branches/newquery/src/java/it/polito/appeal/traci/ChangeRouteQuery.java
+END
+CloseQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/traci4j/!svn/ver/62/branches/newquery/src/java/it/polito/appeal/traci/CloseQuery.java
+END
+StreamLogger.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/traci4j/!svn/ver/62/branches/newquery/src/java/it/polito/appeal/traci/StreamLogger.java
+END
+ChangeCompleteProgramQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/traci4j/!svn/ver/88/branches/newquery/src/java/it/polito/appeal/traci/ChangeCompleteProgramQuery.java
+END
+Link.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/traci4j/!svn/ver/73/branches/newquery/src/java/it/polito/appeal/traci/Link.java
+END
+Logic.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/traci4j/!svn/ver/84/branches/newquery/src/java/it/polito/appeal/traci/Logic.java
+END
+ChangeEdgeTravelTimeQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/traci4j/!svn/ver/64/branches/newquery/src/java/it/polito/appeal/traci/ChangeEdgeTravelTimeQuery.java
+END
+ValueReadQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/traci4j/!svn/ver/62/branches/newquery/src/java/it/polito/appeal/traci/ValueReadQuery.java
+END
+Phase.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/traci4j/!svn/ver/84/branches/newquery/src/java/it/polito/appeal/traci/Phase.java
+END
+Utils.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/traci4j/!svn/ver/62/branches/newquery/src/java/it/polito/appeal/traci/Utils.java
+END
+UtilsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/traci4j/!svn/ver/62/branches/newquery/src/java/it/polito/appeal/traci/UtilsTest.java
+END
+ReadObjectVarQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/traci4j/!svn/ver/62/branches/newquery/src/java/it/polito/appeal/traci/ReadObjectVarQuery.java
+END
+LaneListQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/traci4j/!svn/ver/88/branches/newquery/src/java/it/polito/appeal/traci/LaneListQuery.java
+END
+ReadLinksQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/traci4j/!svn/ver/73/branches/newquery/src/java/it/polito/appeal/traci/ReadLinksQuery.java
+END
+ChangeMaxSpeedQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/traci4j/!svn/ver/81/branches/newquery/src/java/it/polito/appeal/traci/ChangeMaxSpeedQuery.java
+END
+ChangeObjectStateQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/traci4j/!svn/ver/62/branches/newquery/src/java/it/polito/appeal/traci/ChangeObjectStateQuery.java
+END
+ReadCompleteDefinitionQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/traci4j/!svn/ver/89/branches/newquery/src/java/it/polito/appeal/traci/ReadCompleteDefinitionQuery.java
+END
+StepAdvanceListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/traci4j/!svn/ver/62/branches/newquery/src/java/it/polito/appeal/traci/StepAdvanceListener.java
+END
+Query.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/traci4j/!svn/ver/62/branches/newquery/src/java/it/polito/appeal/traci/Query.java
+END
+ControlledLinks.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/traci4j/!svn/ver/73/branches/newquery/src/java/it/polito/appeal/traci/ControlledLinks.java
+END
+VehicleLifecycleObserver.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/traci4j/!svn/ver/62/branches/newquery/src/java/it/polito/appeal/traci/VehicleLifecycleObserver.java
+END
+ObjectCollectionQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/traci4j/!svn/ver/62/branches/newquery/src/java/it/polito/appeal/traci/ObjectCollectionQuery.java
+END
+SimStepQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/traci4j/!svn/ver/62/branches/newquery/src/java/it/polito/appeal/traci/SimStepQuery.java
+END
+ChangeObjectVarQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/traci4j/!svn/ver/88/branches/newquery/src/java/it/polito/appeal/traci/ChangeObjectVarQuery.java
+END
+RerouteQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/traci4j/!svn/ver/64/branches/newquery/src/java/it/polito/appeal/traci/RerouteQuery.java
+END
+ChangeStateQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/traci4j/!svn/ver/62/branches/newquery/src/java/it/polito/appeal/traci/ChangeStateQuery.java
+END
+SimulationData.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/traci4j/!svn/ver/62/branches/newquery/src/java/it/polito/appeal/traci/SimulationData.java
+END
+Repository.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/traci4j/!svn/ver/88/branches/newquery/src/java/it/polito/appeal/traci/Repository.java
+END
+TLState.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/traci4j/!svn/ver/73/branches/newquery/src/java/it/polito/appeal/traci/TLState.java
+END
+MultiQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/traci4j/!svn/ver/81/branches/newquery/src/java/it/polito/appeal/traci/MultiQuery.java
+END
+VehicleSetQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/traci4j/!svn/ver/73/branches/newquery/src/java/it/polito/appeal/traci/VehicleSetQuery.java
+END
+TraCIException.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/traci4j/!svn/ver/62/branches/newquery/src/java/it/polito/appeal/traci/TraCIException.java
+END
+ControlledLink.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/traci4j/!svn/ver/73/branches/newquery/src/java/it/polito/appeal/traci/ControlledLink.java
+END

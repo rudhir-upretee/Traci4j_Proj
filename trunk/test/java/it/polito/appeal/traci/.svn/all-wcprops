@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/traci4j/!svn/ver/31/trunk/test/java/it/polito/appeal/traci
+END
+TraCIServerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/traci4j/!svn/ver/10/trunk/test/java/it/polito/appeal/traci/TraCIServerTest.java
+END
+QueryRoadsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/traci4j/!svn/ver/31/trunk/test/java/it/polito/appeal/traci/QueryRoadsTest.java
+END
+EqualsHashcodeTester.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/traci4j/!svn/ver/28/trunk/test/java/it/polito/appeal/traci/EqualsHashcodeTester.java
+END
+FastStorageTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/traci4j/!svn/ver/9/trunk/test/java/it/polito/appeal/traci/FastStorageTest.java
+END
+TraCITest.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/traci4j/!svn/ver/31/trunk/test/java/it/polito/appeal/traci/TraCITest.java
+END
+RoadmapPositionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/traci4j/!svn/ver/28/trunk/test/java/it/polito/appeal/traci/RoadmapPositionTest.java
+END
