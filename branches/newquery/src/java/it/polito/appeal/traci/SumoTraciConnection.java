@@ -443,7 +443,7 @@ public class SumoTraciConnection {
 	 * @throws IllegalStateException
 	 *             if the method is called when the connection is closed
 	 */
-	public void nextSimStep() throws IOException, IllegalStateException {
+	public void nextSimStep(int millis) throws IOException, IllegalStateException {
 		if (isClosed())
 			throw new IllegalStateException("connection is closed");
 		
@@ -463,8 +463,8 @@ public class SumoTraciConnection {
 		MultiQuery multi = new MultiQuery(dos, dis);
 		{ // begin multi-query
 			SimStepQuery ssq = new SimStepQuery(dis, dos);
-			ssq.setTargetTime(currentSimStep * 1000);
-			multi.add(ssq);
+			//ssq.setTargetTime(currentSimStep * millis);
+			multi.add(ssq); 
 
 			multi.add(vehicleListQuery);
 

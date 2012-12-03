@@ -14,6 +14,8 @@ import java.util.StringTokenizer;
 public class VehicleStatus {
 	
 	private final int TRACI_NS3_SOCK_PORT = 2004;
+	// Simulation step interval in SUMO in Milliseconds
+	private final int SUMO_SIM_STEP_INTERVAL = 1000;
 	
 	private SumoTraciConnection conn;
 	private String sumoCfgFile;
@@ -43,10 +45,11 @@ public class VehicleStatus {
 			// Traci-ns3 connection server 
         	server.start();
         	int simSteps = 0;
-        	while(simSteps++ < 100){
+        	while(simSteps++ < 150){
         		
         		// Default command that is always executed
-        		String cmdStr = "nil,simstep;";
+        		//String cmdStr = "nil,SIMSTEP;";
+        		String cmdStr = "";
  
         		// When the program is started, remote address is unknown.
         		// Wait indefinitely for a packet from the remote machine.
@@ -58,20 +61,23 @@ public class VehicleStatus {
         		// Once the while loop is triggered, message receive is 
         		// performed with timeout, just to check if there are any 
         		// commands sent from remote machine. Timeout should be
-        		// small and should not delay the while loop drastically.
+        		// small and should not delay the while loop.
         		if(!server.isClientAddressValid()) {
-        			cmdStr += server.recvMessage(0);
+        			System.out.println("client addr not valid");
+        			cmdStr = server.recvMessage(0);
         		} else {
-        			cmdStr += server.recvMessage(10);
+        			System.out.println("client addr valid");
+        			cmdStr = server.recvMessage(5000);
+        			//cmdStr = server.recvMessage(0);
         		}
                 if((cmdStr == null) || (cmdStr.equals("bye"))) {
-                	System.out.println("End connection");
-                 	break;	
+                	break;	
                 }
                 System.out.println("Received from client : " + cmdStr);
 
                 execAllCommands(cmdStr);
         	}
+        	System.out.println("End of simulation");
         	server.stop();
         	conn.close();
 
@@ -96,7 +102,7 @@ public class VehicleStatus {
 	{
 		try {
 			Vehicle vehicle = null;
-			String objId = "", cmdId = "";
+			String objId = "", cmdId = "", cmdArg = "";
 			StringTokenizer tok = new StringTokenizer(cmd, ",");
 			
 			// Fill object Id
@@ -107,32 +113,29 @@ public class VehicleStatus {
 			if(tok.hasMoreElements())
 				cmdId = (String) tok.nextElement();
 			
+			// Fill command Arg
+			if(tok.hasMoreElements())
+				cmdArg = (String) tok.nextElement();
+			
 			System.out.println("objId: "+objId+" cmdId: "+cmdId);
 			
 			// Commands to execute
-			if(cmdId.equals("simstep")) {
+			if(cmdId.equals("SIMSTEP")) {
 				// Advance SUMO simulation by one step
-				System.out.println("exec step cmd");
-				conn.nextSimStep();
+				System.out.println("exec SIMSTEP");
+				conn.nextSimStep(SUMO_SIM_STEP_INTERVAL);
 				
-			} else if(cmdId.equals("maxspeed")) {
-				System.out.println("exec maxspeed cmd");
+			} else if(cmdId.equals("SET_SPEED")) {
+				System.out.println("exec SET_SPEED");
 				vehicle = getVehicle(objId);
 				ChangeMaxSpeedQuery maxSpeedQuery = vehicle.queryChangeMaxSpeed();
-				maxSpeedQuery.setValue(1.0);
+				maxSpeedQuery.setValue(Double.parseDouble(cmdArg));
 				maxSpeedQuery.run();
 				
-			} else if(cmdId.equals("maxspeedb")) {
-				System.out.println("exec maxspeed cmd");
-				vehicle = getVehicle(objId);
-				ChangeMaxSpeedQuery maxSpeedQuery = vehicle.queryChangeMaxSpeed();
-				maxSpeedQuery.setValue(10.0);
-				maxSpeedQuery.run();
-				
-			} else if(cmdId.equals("stat")) {
+			} else if(cmdId.equals("GET_STATUS")) {
 				// Send status to remote machine
                 String stat = getAllVehiclesStat();
-                System.out.println("stat : "+stat);
+                System.out.println("GET_STATUS : "+stat);
                 server.sendMessage(stat);
                 
 			} else {
