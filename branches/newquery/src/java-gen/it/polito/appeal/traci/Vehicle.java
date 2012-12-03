@@ -51,6 +51,8 @@ implements StepAdvanceListener
 	
 	private final ChangeMaxSpeedQuery csqvar_ChangeMaxSpeed;
 	
+	private final ChangeSpeedQuery csqvar_ChangeSpeed;
+	
 	private final ChangeRouteQuery csqvar_ChangeRoute;
 	Vehicle (
 		DataInputStream dis,
@@ -154,6 +156,17 @@ implements StepAdvanceListener
 			}
 		};
 		
+		csqvar_ChangeSpeed = new ChangeSpeedQuery(dis, dos, id
+		)
+		{
+			@Override
+			void pickResponses(java.util.Iterator<it.polito.appeal.traci.protocol.ResponseContainer> responseIterator)
+					throws TraCIException {
+				super.pickResponses(responseIterator);
+				
+			}
+		};
+		
 		csqvar_ChangeRoute = new ChangeRouteQuery(dis, dos, id
 		)
 		{
@@ -233,6 +246,10 @@ implements StepAdvanceListener
 	
 	public ChangeMaxSpeedQuery queryChangeMaxSpeed() {
 		return csqvar_ChangeMaxSpeed;
+	}
+	
+	public ChangeSpeedQuery queryChangeSpeed() {
+		return csqvar_ChangeSpeed;
 	}
 	
 	public ChangeRouteQuery queryChangeRoute() {

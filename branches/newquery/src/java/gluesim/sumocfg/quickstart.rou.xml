@@ -19,7 +19,13 @@
   <route id="route12" edges="D8 L8 L9 L15 L18 L5 D5"/>
 
   <vehicle depart="54000" id="veh0" route="route02" type="CarA" color="1,0,0" /> 
-  <vehicle depart="54050" id="veh1" route="route02" type="CarB" color="1,0,0" /> 
-  <vehicle depart="54100" id="veh2" route="route02" type="CarC" color="1,0,0" /> 
-  <vehicle depart="54150" id="veh3" route="route02" type="CarD" color="1,0,0" /> 
+  <vehicle depart="54000" id="veh1" route="route02" type="CarB" color="1,0,0" /> 
+  <vehicle depart="54010" id="veh2" route="route02" type="CarC" color="1,0,0" /> 
+  <vehicle depart="54010" id="veh3" route="route02" type="CarD" color="1,0,0" /> 
+  <vehicle depart="54030" id="veh4" route="route02" type="CarA" color="1,0,0" /> 
+  <vehicle depart="54040" id="veh5" route="route02" type="CarB" color="1,0,0" /> 
+  <vehicle depart="54050" id="veh6" route="route02" type="CarC" color="1,0,0" /> 
+  <vehicle depart="54100" id="veh7" route="route02" type="CarD" color="1,0,0" /> 
+  <vehicle depart="54100" id="veh8" route="route02" type="CarC" color="1,0,0" /> 
+  <vehicle depart="54100" id="veh9" route="route02" type="CarD" color="1,0,0" /> 
 </routes>

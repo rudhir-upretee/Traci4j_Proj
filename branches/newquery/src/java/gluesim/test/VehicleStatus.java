@@ -3,7 +3,7 @@ package gluesim.test;
 import it.polito.appeal.traci.ReadObjectVarQuery;
 import it.polito.appeal.traci.SumoTraciConnection;
 import it.polito.appeal.traci.Vehicle;
-import it.polito.appeal.traci.ChangeMaxSpeedQuery;
+import it.polito.appeal.traci.ChangeSpeedQuery;
 
 import java.awt.geom.Point2D;
 import java.util.Collection;
@@ -44,11 +44,9 @@ public class VehicleStatus {
 			
 			// Traci-ns3 connection server 
         	server.start();
-        	int simSteps = 0;
-        	while(simSteps++ < 150){
+        	while(true){
         		
         		// Default command that is always executed
-        		//String cmdStr = "nil,SIMSTEP;";
         		String cmdStr = "";
  
         		// When the program is started, remote address is unknown.
@@ -57,27 +55,22 @@ public class VehicleStatus {
         		// structure of remote machine is filled. In other words, 
         		// the first packet from the remote machine will trigger 
         		// this while loop.
-        		// 
-        		// Once the while loop is triggered, message receive is 
-        		// performed with timeout, just to check if there are any 
-        		// commands sent from remote machine. Timeout should be
-        		// small and should not delay the while loop.
+        		// Waiting for more than 5 seconds closes the connection.
         		if(!server.isClientAddressValid()) {
         			System.out.println("client addr not valid");
         			cmdStr = server.recvMessage(0);
         		} else {
         			System.out.println("client addr valid");
         			cmdStr = server.recvMessage(5000);
-        			//cmdStr = server.recvMessage(0);
         		}
-                if((cmdStr == null) || (cmdStr.equals("bye"))) {
+                if((cmdStr == null) || (cmdStr.equals("bye")) || (cmdStr.equals(""))) {
                 	break;	
                 }
                 System.out.println("Received from client : " + cmdStr);
 
                 execAllCommands(cmdStr);
         	}
-        	System.out.println("End of simulation");
+        	System.out.println(">> Traci Connection Timeout <<");
         	server.stop();
         	conn.close();
 
@@ -128,9 +121,9 @@ public class VehicleStatus {
 			} else if(cmdId.equals("SET_SPEED")) {
 				System.out.println("exec SET_SPEED");
 				vehicle = getVehicle(objId);
-				ChangeMaxSpeedQuery maxSpeedQuery = vehicle.queryChangeMaxSpeed();
-				maxSpeedQuery.setValue(Double.parseDouble(cmdArg));
-				maxSpeedQuery.run();
+				ChangeSpeedQuery speedQuery = vehicle.queryChangeSpeed();
+				speedQuery.setValue(Double.parseDouble(cmdArg));
+				speedQuery.run();
 				
 			} else if(cmdId.equals("GET_STATUS")) {
 				// Send status to remote machine
@@ -196,11 +189,7 @@ public class VehicleStatus {
 					Point2D pos = pos2dQuery.get();
 					double X = pos.getX();
 					double Y = pos.getY();
-//					strOutput += ((" VehicleId = "+aVehicle)+
-//					             (" Speed = "+speedQuery.get())+
-//					             (" Dist = "+dist)+
-//					             ", ");
-					 strOutput += (aVehicle+","+X+","+Y+","+speed+";");
+    				 strOutput += (aVehicle+","+X+","+Y+","+speed+";");
 		           
 				}
 			}
